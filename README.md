@@ -6,7 +6,7 @@ This repository contains projects for deep learning developed in python
 ## Bird Classification <br>
 * Before downloading you have to change the path from /content/CSC8637-Deep-Learning/Dataset to your folder's path in ! wget & ! unzip command <br>
 * After downloading the dataset you have to change the path variable with your folder path where you downloaded the dataset. <br>
-    : path -> Dataset -> train / test /valid 
+    : path -> Dataset -> train / test / valid 
 * You can modify this variable path_2 with the path of the folder where you want to store the model check points. <br><br>
     : path_2 -> Model Checkpoint -> Model.h5 <br>
 * To load the model you need to specify the path of the folder where you have stored the model in the path_3 variable <br>
