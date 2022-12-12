@@ -22,6 +22,8 @@ This repository contains projects for deep learning developed in python. You wil
  * Model.save('Model.h5') Here the path will be of that folder where you want to save the model. dump(tokenizer, open('Tokenizer.pkl', 'wb')) and the tokenizer. <br>
  * textfile = 'Sequences.txt' This path will be same as the previous one where you stored 'Sequences.txt'. <br>
  * saved_model = load_model('/content/Model.h5') It will be the same path where you saved the model tokenizer = load(open('/content/tokenizer.pkl', 'rb')) along with      the tokenizer <br>
+ * The trained model can be found in <br>
+        : Saved Models -> Natural Language Processing <br>
  
  ### Cycle GAN <br>
  * To download the human dataset before running this `! cp kaggle.json ~/.kaggle/` command you need to upload the kaggle.json file which will be submitted with the         project. <br>
@@ -35,4 +37,7 @@ This repository contains projects for deep learning developed in python. You wil
  * Apart from these structure you also have to update all of the source & target path with you folder's path. <br>
 
  * After making the mentioned changes you will be able to run this code. <br>
+ 
+ * The trained model can be found in <br>
+        : Saved Models -> Cycle GAN <br>
  
