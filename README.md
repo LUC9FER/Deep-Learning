@@ -6,9 +6,7 @@ This repository contains projects for deep learning developed in python
 ## Bird Classification <br>
 * Before downloading you have to change the path from /content/CSC8637-Deep-Learning/Dataset to your folder's path in ! wget & ! unzip command <br>
 * After downloading the dataset you have to change the path variable with your folder path where you downloaded the dataset. <br>
-    : path -> Dataset -> train <br>
-                         test <br>
-                         valid <br>
+    : path -> Dataset -> train / test /valid 
 * You can modify this variable path_2 with the path of the folder where you want to store the model check points. <br><br>
     : path_2 -> Model Checkpoint -> Model.h5 <br>
 * To load the model you need to specify the path of the folder where you have stored the model in the path_3 variable <br>
@@ -35,14 +33,9 @@ This repository contains projects for deep learning developed in python
              testB -> Contains all the images of the human <br>
  * For doing data preperation you need to consider the above structure. <br>
  * For testing the model you have to follow the below mentioned structure to organize the data along with the trained weights: <br>
-    : pytorch-CycleGAN-and-pix2pix -> checkpoints (create if it's not present) <br>
-                                            | <br>
-                                  maps_cyclegan -> upload the weights <br>
-                                            | <br>
-                                  test_latest -> contains the generated images <br>
+    : pytorch-CycleGAN-and-pix2pix -> checkpoints (create if it's not present) / maps_cyclegan -> upload the weights / test_latest -> contains the generated images 
 
-    : test -> testA -> put the animal images for testing <br>
-             testB -> put the human images for testing <br>
+    : test -> testA -> put the animal images for testing / testB -> put the human images for testing <br>
  * Apart from these structure you also have to update all of the source & target path with you folder's path. <br>
 
  * After making the mentioned changes you will be able to run this code. <br>
