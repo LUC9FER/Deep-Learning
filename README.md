@@ -27,14 +27,10 @@ This repository contains projects for deep learning developed in python. You wil
  * To download the human dataset before running this `! cp kaggle.json ~/.kaggle/` command you need to upload the kaggle.json file which will be submitted with the         project. <br>
  * /content/test1.zip' This is to unzip a subset part of dog vs cat which is 'test1'. This is an important path as all of the animal images are taken from this folder.    <br> 
  * Apart from the mentioned links, there are subste links that are crucial for this model to run. As per the project requirement we have to structure all the training    images in this manner: <br> 
-  : dataset -> trainA -> Contains all the images of the animals <br>
-               trainB -> Contains all the images of the human <br>
-  : test -> testA -> Contains all the images of the animals  <br>
-             testB -> Contains all the images of the human <br>
+    : dataset -> trainA -> Contains all the images of the animals / trainB -> Contains all the images of the human <br>
  * For doing data preperation you need to consider the above structure. <br>
  * For testing the model you have to follow the below mentioned structure to organize the data along with the trained weights: <br>
     : pytorch-CycleGAN-and-pix2pix -> checkpoints (create if it's not present) / maps_cyclegan -> upload the weights / test_latest -> contains the generated images 
-
     : test -> testA -> put the animal images for testing / testB -> put the human images for testing <br>
  * Apart from these structure you also have to update all of the source & target path with you folder's path. <br>
 
