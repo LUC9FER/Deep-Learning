@@ -7,7 +7,7 @@ This repository contains projects for deep learning developed in python. You wil
 * Before downloading you have to change the path from /content/CSC8637-Deep-Learning/Dataset to your folder's path in ! wget & ! unzip command <br>
 * After downloading the dataset you have to change the path variable with your folder path where you downloaded the dataset. <br>
     : path -> Dataset -> train / test / valid 
-* You can modify this variable path_2 with the path of the folder where you want to store the model check points. <br><br>
+* You can modify this variable path_2 with the path of the folder where you want to store the model check points. <br>
     : path_2 -> Model Checkpoint -> Model.h5 <br>
 * To load the model you need to specify the path of the folder where you have stored the model in the path_3 variable <br>
     : path_3 -> Saved Model -> InceptionResNetV2.h5 <br>
@@ -30,7 +30,7 @@ This repository contains projects for deep learning developed in python. You wil
     : dataset -> trainA -> Contains all the images of the animals / trainB -> Contains all the images of the human <br>
  * For doing data preperation you need to consider the above structure. <br>
  * For testing the model you have to follow the below mentioned structure to organize the data along with the trained weights: <br>
-    : pytorch-CycleGAN-and-pix2pix -> checkpoints (create if it's not present) / maps_cyclegan -> upload the weights / test_latest -> contains the generated images 
+    : pytorch-CycleGAN-and-pix2pix -> checkpoints (create if it's not present) / maps_cyclegan -> upload the weights / test_latest -> contains the generated images         <br> 
     : test -> testA -> put the animal images for testing / testB -> put the human images for testing <br>
  * Apart from these structure you also have to update all of the source & target path with you folder's path. <br>
 
